@@ -1,0 +1,18 @@
+{
+  "packages": ["packages/*", "examples/*", "examples/persisted-queries/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): :rocket:"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "createRelease": "github"
+    },
+    "bootstrap": {
+      "hoist": ["react", "react-dom"],
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  }
+}

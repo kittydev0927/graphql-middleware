@@ -1,0 +1,30 @@
+{
+  "name": "graphql-hooks-full-ws-transport-example",
+  "version": "1.0.5",
+  "private": true,
+  "dependencies": {
+    "fastify": "^4.2.0",
+    "graphql-hooks": "^6.0.5",
+    "graphql-ws": "^5.5.5",
+    "mercurius": "^11.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/index.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

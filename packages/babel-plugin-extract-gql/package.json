@@ -1,0 +1,44 @@
+{
+  "name": "babel-plugin-extract-gql",
+  "version": "3.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint",
+    "test": "mocha --require @babel/register ./test/unit",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/register": "^7.0.0",
+    "glob": "^8.0.1",
+    "mercurius": "^11.0.0",
+    "mocha": "^10.0.0"
+  },
+  "author": "Salman Mitha <salmanmitha@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "plugin",
+    "extract",
+    "strings"
+  ],
+  "dependencies": {
+    "@fastify/cors": "^8.0.0",
+    "fastify": "^4.2.0",
+    "pkg-dir": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nearform/graphql-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nearform/graphql-hooks/issues"
+  },
+  "homepage": "https://github.com/nearform/graphql-hooks/tree/master/packages/babel-plugin-extract-gql#readme"
+}
